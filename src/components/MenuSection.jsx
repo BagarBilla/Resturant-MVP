@@ -55,7 +55,7 @@ const MenuSection = () => {
                   onClick={() => scrollToCategory(category)}
                   className={`px-4 py-3 rounded-xl font-medium whitespace-nowrap transition-all hover:scale-105 ${
                     activeCategory === category
-                      ? 'bg-primary text-white shadow-lg'
+                      ? 'bg-primary text-black shadow-lg'
                       : 'bg-white text-gray-700 hover:bg-orange-50'
                   }`}
                 >
